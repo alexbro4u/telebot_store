@@ -87,7 +87,7 @@ class HandlerAllText(Handler):
                                         product_id),
                                     self.BD.select_single_product_price(
                                         product_id),
-                                    self.BD.select_single_product_quantity(
+                                    self.BD.select_order_quantity(
                                     product_id)),
                               parse_mode="HTML",
                               reply_markup=self.keyboards.orders_menu(
